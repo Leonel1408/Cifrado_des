@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado DES</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Cifrado DES</h1>
+        <div class="mt-4">
+            <input type="file" id="fileInput" class="form-control" accept=".txt">
+            <input type="text" id="keyInput" class="form-control mt-3" placeholder="Clave de 8 caracteres">
+            <button id="encryptButton" class="btn btn-primary mt-3">Cifrar</button>
+            <button id="decryptButton" class="btn btn-primary mt-3">Descifrar</button>
+        </div>
+        <div class="mt-4">
+            <h3>Resultado:</h3>
+            <div id="output" class="mt-2"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
